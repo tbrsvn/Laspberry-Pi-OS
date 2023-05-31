@@ -6,11 +6,13 @@
 Laspberry Pi OS is a Raspberry Pi OS based OS with LXQt installed on it instead of LXDE.
 
 ## How Do I Use Laspberry Pi OS?
-There are two ways, using my pre-made image, or building it yourself.
+There are two ways, using my install script, or building it yourself.
 
-### Using The Pre-made Image
-First, install "rpi-imager". Then, run [Download This File](). After that open rpi-imager and click "CHOOSE OS". After that, scroll down until you see "Use custom" and select the image file you downloaded. Once that's done, select your storage and click "WRITE"
-
+### Using The Install Script
+#### Writing The OS To The SD Card
+First off, install "rpi-imager" and run it. Then select "CHOOSE OS". In that menu click "Raspberry Pi OS (other)". Finally, click "Raspberry Pi OS Lite (64-bit)". Then choose your storage device, and click the cog in the bottom right. You are going to want to set your Wi-Fi, Username and password, hostname, and locale settings up now to make things easier on yourself later. Once you've done everything, click "WRITE".
+#### Installing The Desktop Environment
+Run the command ```sudo apt install git```. Then, clone this repository with ```git clone https://github.com/Norok-The-Diablo/Laspberry-Pi-OS.git```. After that, cd into the directory and run ```sudo chmod +x install.sh``` and ```./install.sh```. If the installation completes with no errors, you should have Laspberry Pi OS installed!
 ### Building It Yourself
 #### Writing The OS To The SD Card
 First off, install "rpi-imager" and run it. Then select "CHOOSE OS". In that menu click "Raspberry Pi OS (other)". Finally, click "Raspberry Pi OS Lite (64-bit)". Then choose your storage device, and click the cog in the bottom right. You are going to want to set your Wi-Fi, Username and password, hostname, and locale settings up now to make things easier on yourself later. Once you've done everything, click "WRITE".
