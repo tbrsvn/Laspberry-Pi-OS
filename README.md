@@ -9,7 +9,7 @@ Laspberry Pi OS is a Raspberry Pi OS based OS with LXQt installed on it instead 
 There are two ways, using my pre-made image, or building it yourself.
 
 ### Using The Pre-made Image
-
+First, install rpi-imager. Then, run [Download This File](). After that open rpi-imager and click "CHOOSE OS". After that, scroll down until you see "Use custom" and select the image file you downloaded. Once that's done, select your storage and click "WRITE"
 
 ### Building It Yourself
 #### Writing The OS To The SD Card
