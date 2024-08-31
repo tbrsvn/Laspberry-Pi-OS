@@ -12,7 +12,7 @@ There are two ways, using my install script, or building it yourself.
 #### Writing The OS To The SD Card
 First off, install "rpi-imager" and run it. Then select "CHOOSE OS". In that menu click "Raspberry Pi OS (other)". Finally, click "Raspberry Pi OS Lite (64-bit)". Then choose your storage device, and click the cog in the bottom right. You are going to want to set your Wi-Fi, Username and password, hostname, and locale settings up now to make things easier on yourself later. Once you've done everything, click "WRITE".
 #### Installing The Desktop Environment
-Run the command ```sudo apt install git```. Then, clone this repository with ```git clone https://github.com/Norok-The-Diablo/Laspberry-Pi-OS.git```. After that, cd into the directory and run ```sudo chmod +x install.sh``` and ```./install.sh```. If the installation completes with no errors, you should have Laspberry Pi OS installed!
+Run the command ```sudo apt install git```. Then, clone this repository with ```git clone https://github.com/tbrsvn/Laspberry-Pi-OS.git```. After that, cd into the directory and run ```sudo chmod +x install.sh``` and ```./install.sh```. If the installation completes with no errors, you should have Laspberry Pi OS installed!
 ### Building It Yourself
 #### Writing The OS To The SD Card
 First off, install "rpi-imager" and run it. Then select "CHOOSE OS". In that menu click "Raspberry Pi OS (other)". Finally, click "Raspberry Pi OS Lite (64-bit)". Then choose your storage device, and click the cog in the bottom right. You are going to want to set your Wi-Fi, Username and password, hostname, and locale settings up now to make things easier on yourself later. Once you've done everything, click "WRITE".
